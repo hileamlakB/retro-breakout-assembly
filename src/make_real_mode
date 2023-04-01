@@ -1,7 +1,0 @@
-# compile code to a bootable binary
-nasm -f bin -o real_mode.bin retro_breakout_realmode.asm
-
-
-#Create a floppy disk image containing the binary file:
-dd if=/dev/zero of=breakout_floppy.img bs=1024 count=1440
-dd if=real_mode.bin of=breakout_floppy.img conv=notrunc

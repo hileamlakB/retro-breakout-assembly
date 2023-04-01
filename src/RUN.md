@@ -1,5 +1,6 @@
 # Instruction
 
+[Deprecated] - as the code for the game couldn't fit in the MBR sector
 To run this program in real mode follow the instructions below
 
 1. Install dosbox and other requirments as described in the INSTALL file
