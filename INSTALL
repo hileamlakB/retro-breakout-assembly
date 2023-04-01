@@ -1,0 +1,5 @@
+Install nasm
+sudo apt install nasm
+
+Install dosbox for real mode
+sudo apt install dosbox
